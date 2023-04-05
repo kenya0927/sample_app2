@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   # get 'lists/:id' => 'lists#show'
   # get 'lists/edit'
 
-  resources :lists,only: [:new,:index,:show,:edit,:create,:update]
+  resources :lists,only: [:new,:index,:show,:edit,:create,:update,:destroy]
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
